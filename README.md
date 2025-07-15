@@ -4,13 +4,11 @@
 
 **FastBuild.nvim** is a Neovim plugin that allows you to quickly load and register local plugins with minimal setup. It enables per-project plugin configuration by detecting and loading a `setup()` function defined in your plugin's `fastbuild.lua`.
 
----
 
 ## How It Works
 
 When you create a plugin, you add a `lua/<plugin_name>/fastbuild.lua` file containing a `setup()` function. When you run the `:FastBuild` command, FastBuild will detect this file and generate a registration snippet. On your next Neovim startup, this snippet ensures the plugin's `setup()` function is automatically called.
 
----
 
 ## Registering a Plugin
 
