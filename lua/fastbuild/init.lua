@@ -1,5 +1,5 @@
 local cache_dir = vim.fn.stdpath("cache")
-local cache_file = cache_dir .. "/fastbuild_plugins.lua"
+local cache_file = cache_dir .. "/fastbuild.lua"
 
 local M = {}
 
